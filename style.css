@@ -1,0 +1,49 @@
+* {
+  margin: 0px;
+}
+
+p {
+  font-size: 20px
+}
+
+p.texto1 {
+  font-size: 30px
+}
+
+b {
+  font-size: 50px
+}
+
+a {
+  color: blue;
+  background-color: green;
+}
+
+/*Enlaces que terminen en ".org"*/
+a[href$=".org"] {
+color: red;
+background-color: yellow;
+}
+
+p:nth-child(1) {
+  background: #999999;
+}
+
+p:nth-child(2) {
+  background: #cccccc;
+}
+
+p:nth-child(odd) {
+  background: #999999;
+}
+
+p:nth-child(even) {
+  background: #cccccc;
+}
+
+div {
+  color: white;
+}
+
+
+
